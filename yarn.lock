@@ -7,9 +7,9 @@
   "resolved" "https://registry.npmjs.org/@next/env/-/env-13.5.2.tgz"
   "version" "13.5.2"
 
-"@next/swc-darwin-arm64@13.5.2":
-  "integrity" "sha512-7eAyunAWq6yFwdSQliWMmGhObPpHTesiKxMw4DWVxhm5yLotBj8FCR4PXGkpRP2tf8QhaWuVba+/fyAYggqfQg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.5.2.tgz"
+"@next/swc-darwin-x64@13.5.2":
+  "integrity" "sha512-WxXYWE7zF1ch8rrNh5xbIWzhMVas6Vbw+9BCSyZvu7gZC5EEiyZNJsafsC89qlaSA7BnmsDXVWQmc+s1feSYbQ=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.5.2.tgz"
   "version" "13.5.2"
 
 "@swc/helpers@0.5.2":
