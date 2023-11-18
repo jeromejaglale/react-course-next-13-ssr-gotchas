@@ -1,18 +1,15 @@
 'use client';
 import React from 'react';
+import Spinner from '../Spinner';
 
 function Counter() {
-  const [count, setCount] = React.useState(0);
+  const [count, setCount] = React.useState(null);
 
   // on client, on page load, get count from local storage
   React.useEffect(() => {
     const savedCount = window.localStorage.getItem('saved-count');
-
-    if(savedCount === null) {
-      return;
-    }
     
-    setCount(Number(savedCount));
+    setCount(savedCount ? Number(savedCount) : 0);
   }, []);
 
     // whenever count is changed, update local storage accordingly
@@ -29,7 +26,8 @@ function Counter() {
         }
       }  
     >
-      Count: {count}
+      Count: {' '}
+      {typeof count === 'number' ? count : <Spinner />}
     </button>
   );
 
